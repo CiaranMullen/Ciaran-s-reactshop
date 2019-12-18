@@ -2,7 +2,7 @@ import React           from 'react';
 import AddToCartButton from './AddToCartButton';
 import * as Config     from '../config.json';
 
-import './Product.scss';
+import './Product.css';
 
 class Product extends React.Component {
 
