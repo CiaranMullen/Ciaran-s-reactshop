@@ -1,5 +1,6 @@
 import React    from 'react';
 import ViewCart from './ViewCart';
+import Stripe       from './Stripe';
 
 class Header extends React.Component {
 
@@ -7,7 +8,8 @@ class Header extends React.Component {
     return (
       <div className='jumbotron'>
         <h1 className='display-4'>Product Shop</h1>
-        <p>A basic React app showing how products can be rendered from a JSON object retrieved from a PHP script</p>
+        <p>Food shop</p>
+        <div className='moveRight'></div>
         <ViewCart cart={this.props.cart} />
       </div>
     );
